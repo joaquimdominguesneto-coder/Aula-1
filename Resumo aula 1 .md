@@ -1,0 +1,135 @@
+# 01 – Primeiros Conceitos de Programação em Python
+
+## Objetivo do Módulo
+
+Apresentar os primeiros conceitos práticos da linguagem Python, permitindo que o estudante escreva seus primeiros programas, compreenda a lógica básica e se familiarize com a sintaxe da linguagem.
+
+---
+
+## 1. Estrutura Básica de um Programa em Python
+
+Um programa em Python é composto por instruções executadas sequencialmente, de cima para baixo. Diferente de outras linguagens, Python não exige um método principal (`main`) ou estrutura complexa para iniciar a execução.
+
+Exemplo simples:
+
+print("Meu primeiro programa em Python")
+
+---
+
+## 2. Comentários em Python
+
+Comentários são utilizados para explicar o código e não são executados pelo interpretador.
+
+### 2.1 Comentário de uma linha
+
+# Este é um comentário
+
+### 2.2 Comentário de múltiplas linhas (docstring)
+
+"""
+Este programa imprime uma mensagem na tela.
+Utilizado apenas como exemplo.
+"""
+
+---
+
+## 3. Variáveis
+
+Variáveis são utilizadas para armazenar valores na memória.
+
+### Características das variáveis em Python
+
+- Não é necessário declarar o tipo  
+- O tipo é inferido automaticamente  
+- O valor pode ser alterado durante a execução  
+
+Exemplo:
+
+nome = "Ana"  
+idade = 20  
+altura = 1.65
+
+---
+
+## 4. Tipos de Dados Básicos
+
+- int → números inteiros  
+- float → números decimais  
+- str → texto  
+- bool → verdadeiro ou falso  
+
+Exemplo:
+
+quantidade = 10  
+preco = 19.90  
+mensagem = "Python é incrível"  
+aprovado = True
+
+---
+
+## 5. Função type()
+
+Permite verificar o tipo de um dado.
+
+print(type(idade))
+
+---
+
+## 6. Entrada de Dados com input()
+
+Permite receber dados do usuário.
+
+nome = input("Digite seu nome: ")
+
+Observação: sempre retorna string.
+
+---
+
+## 7. Conversão de Tipos (Casting)
+
+idade = int(input("Digite sua idade: "))  
+altura = float(input("Digite sua altura: "))
+
+---
+
+## 8. Operadores Aritméticos
+
+| Operador | Descrição |
+|----------|-----------|
+| + | Adição |
+| - | Subtração |
+| * | Multiplicação |
+| / | Divisão |
+| // | Divisão inteira |
+| % | Resto |
+| ** | Potência |
+
+Exemplo:
+
+a = 10  
+b = 3  
+
+print(a + b)  
+print(a * b)  
+print(a ** b)
+
+---
+
+## 9. Boas Práticas Iniciais
+
+- Utilize nomes de variáveis claros e descritivos  
+- Evite acentuação e espaços  
+- Use snake_case  
+
+Exemplo:
+
+media_final = 7.5  
+total_alunos = 30
+
+---
+
+## 10. Exercícios Propostos
+
+1. Crie um programa que solicite o nome e a idade do usuário e exiba uma mensagem personalizada.  
+2. Leia dois números digitados pelo usuário e exiba a soma.  
+3. Calcule a média de três notas informadas pelo usuário.
