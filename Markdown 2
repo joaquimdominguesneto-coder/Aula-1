@@ -12,7 +12,7 @@ Um programa em Python é composto por instruções executadas sequencialmente, d
 
 Exemplo simples:
 
-`print("Meu primeiro programa em Python")`
+print("Meu primeiro programa em Python")
 
 ---
 
@@ -22,11 +22,14 @@ Comentários são utilizados para explicar o código e não são executados pelo
 
 ### 2.1 Comentário de uma linha
 
-`# Este é um comentário`
+# Este é um comentário
 
 ### 2.2 Comentário de múltiplas linhas (docstring)
 
-`""" Este programa imprime uma mensagem na tela. """`
+"""
+Este programa imprime uma mensagem na tela.
+Utilizado apenas como exemplo.
+"""
 
 ---
 
@@ -42,25 +45,25 @@ Variáveis são utilizadas para armazenar valores na memória.
 
 Exemplo:
 
-`nome = "Ana"  
+nome = "Ana"  
 idade = 20  
-altura = 1.65`
+altura = 1.65
 
 ---
 
 ## 4. Tipos de Dados Básicos
 
-- `int` → números inteiros  
-- `float` → números decimais  
-- `str` → texto  
-- `bool` → verdadeiro ou falso  
+- int → números inteiros  
+- float → números decimais  
+- str → texto  
+- bool → verdadeiro ou falso  
 
 Exemplo:
 
-`quantidade = 10  
+quantidade = 10  
 preco = 19.90  
 mensagem = "Python é incrível"  
-aprovado = True`
+aprovado = True
 
 ---
 
@@ -68,7 +71,7 @@ aprovado = True`
 
 Permite verificar o tipo de um dado.
 
-`print(type(idade))`
+print(type(idade))
 
 ---
 
@@ -76,16 +79,16 @@ Permite verificar o tipo de um dado.
 
 Permite receber dados do usuário.
 
-`nome = input("Digite seu nome: ")`
+nome = input("Digite seu nome: ")
 
-**Observação:** sempre retorna string.
+Observação: sempre retorna string.
 
 ---
 
 ## 7. Conversão de Tipos (Casting)
 
-`idade = int(input("Digite sua idade: "))  
-altura = float(input("Digite sua altura: "))`
+idade = int(input("Digite sua idade: "))  
+altura = float(input("Digite sua altura: "))
 
 ---
 
@@ -103,12 +106,12 @@ altura = float(input("Digite sua altura: "))`
 
 Exemplo:
 
-`a = 10  
+a = 10  
 b = 3  
 
 print(a + b)  
 print(a * b)  
-print(a ** b)`
+print(a ** b)
 
 ---
 
@@ -116,12 +119,12 @@ print(a ** b)`
 
 - Utilize nomes de variáveis claros e descritivos  
 - Evite acentuação e espaços  
-- Use `snake_case`  
+- Use snake_case  
 
 Exemplo:
 
-`media_final = 7.5  
-total_alunos = 30`
+media_final = 7.5  
+total_alunos = 30
 
 ---
 
@@ -129,4 +132,4 @@ total_alunos = 30`
 
 1. Crie um programa que solicite o nome e a idade do usuário e exiba uma mensagem personalizada.  
 2. Leia dois números digitados pelo usuário e exiba a soma.  
-3. Calcule a média de três notas informadas pelo usuário.  
+3. Calcule a média de três notas informadas pelo usuário.
